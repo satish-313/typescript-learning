@@ -1,0 +1,16 @@
+{
+  "name": "typescript-learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc inter/app.ts",
+    "tsgen": "tsc --init",
+    "start": "tsc -w"
+  },
+  "author": "satish kumar pradhan",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.1.3"
+  }
+}
